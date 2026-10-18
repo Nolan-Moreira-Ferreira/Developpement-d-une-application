@@ -1,0 +1,72 @@
+html, body{
+    height: 100%;
+    margin:0;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .actor, .content , .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+
+.tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.movie{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border: solid;
+    justify-content: space-between;
+
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: solid;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.date{
+
+    padding: 10px;
+}
+.header, .footer{
+    background-color: #edb243;
+}
+.role, .nom{
+    display: flex;
+    padding: 10px;
+}
+
+.poster{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
